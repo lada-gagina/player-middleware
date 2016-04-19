@@ -1,0 +1,1 @@
+/home/lada/Downloads/player-arm/share/player/examples/plugins/exampledriver/CMakeFiles/exampledriver.dir

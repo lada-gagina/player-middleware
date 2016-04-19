@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC   -shared -Wl,-soname,libexampledriver.so -o libexampledriver.so CMakeFiles/exampledriver.dir/exampledriver.o  -L/home/lada/Downloads/player-arm/lib64 -lplayercore -lpthread -lltdl -ldl -lplayerinterface -lplayercommon -Wl,-rpath,/home/lada/Downloads/player-arm/lib64 
