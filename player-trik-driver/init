@@ -1,0 +1,5 @@
+#!/bin/sh
+oecore
+export PKG_CONFIG_SYSROOT_DIR=""
+export PKG_CONFIG_PATH=/home/lada/Downloads/player-arm/lib64/pkgconfig:$PKG_CONFIG_PATH
+export LD_LIBRARY_PATH=/home/lada/Downloads/player-arm/lib64:$LD_LIBRARY_PATH

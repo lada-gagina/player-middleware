@@ -1,0 +1,13 @@
+#!/bin/sh
+rm -f CMakeCache.txt
+rm -rf CMakeFiles
+rm -f cmake_install.cmake
+rm -f libtrikmotors.so
+rm -f Makefile
+
+moc trikMotors.h > moc_trikMotors.h
+cmake .
+make # -d | grep trikMotors.o
+rsync -avz -e ssh ./libtrikmotors.so root@$1:/home/root/player/
+#ssh root@$1 "killall player; cd /home/root/player; export PKG_CONFIG_PATH=/home/root/player/lib64/pkgconfig:$PKG_CONFIG_PATH; export LD_LIBRARY_PATH=/home/root/player/lib64:$LD_LIBRARY_PATH; dc" #; bin/player test.cfg &"
+#playerv -h $1 --position2d:0
