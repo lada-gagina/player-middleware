@@ -1,0 +1,1139 @@
+The system is: Linux - 4.2.0-36-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc -march=armv5te;-marm;-mthumb-interwork;-mtune=arm926ej-s;--sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi
+Build flags: ;-O2;-pipe;-g;-feliminate-unused-debug-types
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/lada/Documents/player-3.0.2/build/CMakeFiles/3.2.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++ -march=armv5te;-marm;-mthumb-interwork;-mtune=arm926ej-s;--sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi
+Build flags: ;-O2;-pipe;-g;-feliminate-unused-debug-types
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/lada/Documents/player-3.0.2/build/CMakeFiles/3.2.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec1959080775/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec1959080775.dir/build.make CMakeFiles/cmTryCompileExec1959080775.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1959080775.dir/testCCompiler.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types     -o CMakeFiles/cmTryCompileExec1959080775.dir/testCCompiler.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec1959080775
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1959080775.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types     -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec1959080775.dir/testCCompiler.c.o  -o cmTryCompileExec1959080775 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec3180947431/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec3180947431.dir/build.make CMakeFiles/cmTryCompileExec3180947431.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3180947431.dir/CMakeCCompilerABI.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types     -o CMakeFiles/cmTryCompileExec3180947431.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.2/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec3180947431
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3180947431.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types     -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -v CMakeFiles/cmTryCompileExec3180947431.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3180947431 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc
+COLLECT_LTO_WRAPPER=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2/lto-wrapper
+Target: arm-oe-linux-gnueabi
+Configured with: /home/roma/Workspace_update/setup-scripts/build/tmp-eglibc/work-shared/gcc-4.8.2-r0/gcc-4.8.2/configure --build=x86_64-linux --host=i686-oesdk-linux --target=arm-oe-linux-gnueabi --prefix=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr --exec_prefix=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr --bindir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi --sbindir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi --libexecdir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi --datadir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/share --sysconfdir=/opt/trik-sdk/sysroots/i686-oesdk-linux/etc --sharedstatedir=/opt/trik-sdk/sysroots/i686-oesdk-linux/com --localstatedir=/opt/trik-sdk/sysroots/i686-oesdk-linux/var --libdir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/lib/arm-oe-linux-gnueabi --includedir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/include --oldincludedir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/include --infodir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/share/info --mandir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/roma/Workspace_update/setup-scripts/build/tmp-eglibc/sysroots/i686-nativesdk-oesdk-linux --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-oe-linux-gnueabi- --without-local-prefix --enable-target-optspace --enable-lto --enable-libssp --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --with-gxx-include-dir=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/include/c++ --with-build-time-tools=/home/roma/Workspace_update/setup-scripts/build/tmp-eglibc/sysroots/x86_64-linux/usr/arm-oe-linux-gnueabi/bin --with-sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi --with-build-sysroot=/home/roma/Workspace_update/setup-scripts/build/tmp-eglibc/sysroots/trikboard --enable-poison-system-directories --disable-libunwind-exceptions --with-mpfr=/home/roma/Workspace_update/setup-scripts/build/tmp-eglibc/sysroots/i686-nativesdk-oesdk-linux --with-mpc=/home/roma/Workspace_update/setup-scripts/build/tmp-eglibc/sysroots/i686-nativesdk-oesdk-linux --enable-nls
+Thread model: posix
+gcc version 4.8.2 (GCC) 
+COMPILER_PATH=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2/:/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2/:/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/:/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2/:/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/
+LIBRARY_PATH=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2/:/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/lib/:/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.8.2/:/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi' '-march=armv5te' '-marm' '-mthumb-interwork' '-mtune=arm926ej-s' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'cmTryCompileExec3180947431' '-rdynamic' '-mtls-dialect=gnu'
+ /opt/trik-sdk/sysroots/i686-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2/collect2 --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTryCompileExec3180947431 /opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/crt1.o /opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/crti.o /opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.8.2/crtbegin.o -L/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2 -L/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/lib -L/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.8.2 -L/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib -O1 --hash-style=gnu --as-needed CMakeFiles/cmTryCompileExec3180947431.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.8.2/crtend.o /opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/crtn.o
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec3180947431/fast"]
+  ignore line: [/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec3180947431.dir/build.make CMakeFiles/cmTryCompileExec3180947431.dir/build]
+  ignore line: [make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3180947431.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types     -o CMakeFiles/cmTryCompileExec3180947431.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.2/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec3180947431]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3180947431.dir/link.txt --verbose=1]
+  ignore line: [/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types     -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -v CMakeFiles/cmTryCompileExec3180947431.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3180947431 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2/lto-wrapper]
+  ignore line: [Target: arm-oe-linux-gnueabi]
+  ignore line: [Configured with: /home/roma/Workspace_update/setup-scripts/build/tmp-eglibc/work-shared/gcc-4.8.2-r0/gcc-4.8.2/configure --build=x86_64-linux --host=i686-oesdk-linux --target=arm-oe-linux-gnueabi --prefix=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr --exec_prefix=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr --bindir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi --sbindir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi --libexecdir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi --datadir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/share --sysconfdir=/opt/trik-sdk/sysroots/i686-oesdk-linux/etc --sharedstatedir=/opt/trik-sdk/sysroots/i686-oesdk-linux/com --localstatedir=/opt/trik-sdk/sysroots/i686-oesdk-linux/var --libdir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/lib/arm-oe-linux-gnueabi --includedir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/include --oldincludedir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/include --infodir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/share/info --mandir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/roma/Workspace_update/setup-scripts/build/tmp-eglibc/sysroots/i686-nativesdk-oesdk-linux --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-oe-linux-gnueabi- --without-local-prefix --enable-target-optspace --enable-lto --enable-libssp --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --with-gxx-include-dir=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/include/c++ --with-build-time-tools=/home/roma/Workspace_update/setup-scripts/build/tmp-eglibc/sysroots/x86_64-linux/usr/arm-oe-linux-gnueabi/bin --with-sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi --with-build-sysroot=/home/roma/Workspace_update/setup-scripts/build/tmp-eglibc/sysroots/trikboard --enable-poison-system-directories --disable-libunwind-exceptions --with-mpfr=/home/roma/Workspace_update/setup-scripts/build/tmp-eglibc/sysroots/i686-nativesdk-oesdk-linux --with-mpc=/home/roma/Workspace_update/setup-scripts/build/tmp-eglibc/sysroots/i686-nativesdk-oesdk-linux --enable-nls]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2/:/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2/:/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/:/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2/:/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/]
+  ignore line: [LIBRARY_PATH=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2/:/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/lib/:/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.8.2/:/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi' '-march=armv5te' '-marm' '-mthumb-interwork' '-mtune=arm926ej-s' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'cmTryCompileExec3180947431' '-rdynamic' '-mtls-dialect=gnu']
+  link line: [ /opt/trik-sdk/sysroots/i686-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2/collect2 --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTryCompileExec3180947431 /opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/crt1.o /opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/crti.o /opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.8.2/crtbegin.o -L/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2 -L/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/lib -L/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.8.2 -L/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib -O1 --hash-style=gnu --as-needed CMakeFiles/cmTryCompileExec3180947431.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.8.2/crtend.o /opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/crtn.o]
+    arg [/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2/collect2] ==> ignore
+    arg [--sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3180947431] ==> ignore
+    arg [/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/crt1.o] ==> ignore
+    arg [/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/crti.o] ==> ignore
+    arg [/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.8.2/crtbegin.o] ==> ignore
+    arg [-L/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2] ==> dir [/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2]
+    arg [-L/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/lib] ==> dir [/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/lib]
+    arg [-L/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.8.2] ==> dir [/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.8.2]
+    arg [-L/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib] ==> dir [/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib]
+    arg [-O1] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec3180947431.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.8.2/crtend.o] ==> ignore
+    arg [/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2] ==> [/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2]
+  collapse library dir [/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/lib] ==> [/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/lib]
+  collapse library dir [/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.8.2] ==> [/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.8.2]
+  collapse library dir [/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib] ==> [/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2;/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/lib;/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.8.2;/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec3590207487/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec3590207487.dir/build.make CMakeFiles/cmTryCompileExec3590207487.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3590207487.dir/feature_tests.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types     -std=c11 -o CMakeFiles/cmTryCompileExec3590207487.dir/feature_tests.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec3590207487
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3590207487.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types     -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec3590207487.dir/feature_tests.c.o  -o cmTryCompileExec3590207487 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec4143950048/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec4143950048.dir/build.make CMakeFiles/cmTryCompileExec4143950048.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4143950048.dir/feature_tests.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types     -std=c99 -o CMakeFiles/cmTryCompileExec4143950048.dir/feature_tests.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec4143950048
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4143950048.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types     -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec4143950048.dir/feature_tests.c.o  -o cmTryCompileExec4143950048 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec87352799/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec87352799.dir/build.make CMakeFiles/cmTryCompileExec87352799.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec87352799.dir/feature_tests.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types     -std=c90 -o CMakeFiles/cmTryCompileExec87352799.dir/feature_tests.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec87352799
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec87352799.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types     -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec87352799.dir/feature_tests.c.o  -o cmTryCompileExec87352799 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec2842744162/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec2842744162.dir/build.make CMakeFiles/cmTryCompileExec2842744162.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2842744162.dir/testCXXCompiler.cxx.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi   -O2 -pipe -g -feliminate-unused-debug-types     -o CMakeFiles/cmTryCompileExec2842744162.dir/testCXXCompiler.cxx.o -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec2842744162
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2842744162.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi   -O2 -pipe -g -feliminate-unused-debug-types     -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec2842744162.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2842744162 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec3161349027/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec3161349027.dir/build.make CMakeFiles/cmTryCompileExec3161349027.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3161349027.dir/CMakeCXXCompilerABI.cpp.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi   -O2 -pipe -g -feliminate-unused-debug-types     -o CMakeFiles/cmTryCompileExec3161349027.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3161349027
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3161349027.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi   -O2 -pipe -g -feliminate-unused-debug-types     -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -v CMakeFiles/cmTryCompileExec3161349027.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3161349027 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++
+COLLECT_LTO_WRAPPER=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2/lto-wrapper
+Target: arm-oe-linux-gnueabi
+Configured with: /home/roma/Workspace_update/setup-scripts/build/tmp-eglibc/work-shared/gcc-4.8.2-r0/gcc-4.8.2/configure --build=x86_64-linux --host=i686-oesdk-linux --target=arm-oe-linux-gnueabi --prefix=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr --exec_prefix=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr --bindir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi --sbindir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi --libexecdir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi --datadir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/share --sysconfdir=/opt/trik-sdk/sysroots/i686-oesdk-linux/etc --sharedstatedir=/opt/trik-sdk/sysroots/i686-oesdk-linux/com --localstatedir=/opt/trik-sdk/sysroots/i686-oesdk-linux/var --libdir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/lib/arm-oe-linux-gnueabi --includedir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/include --oldincludedir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/include --infodir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/share/info --mandir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/roma/Workspace_update/setup-scripts/build/tmp-eglibc/sysroots/i686-nativesdk-oesdk-linux --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-oe-linux-gnueabi- --without-local-prefix --enable-target-optspace --enable-lto --enable-libssp --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --with-gxx-include-dir=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/include/c++ --with-build-time-tools=/home/roma/Workspace_update/setup-scripts/build/tmp-eglibc/sysroots/x86_64-linux/usr/arm-oe-linux-gnueabi/bin --with-sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi --with-build-sysroot=/home/roma/Workspace_update/setup-scripts/build/tmp-eglibc/sysroots/trikboard --enable-poison-system-directories --disable-libunwind-exceptions --with-mpfr=/home/roma/Workspace_update/setup-scripts/build/tmp-eglibc/sysroots/i686-nativesdk-oesdk-linux --with-mpc=/home/roma/Workspace_update/setup-scripts/build/tmp-eglibc/sysroots/i686-nativesdk-oesdk-linux --enable-nls
+Thread model: posix
+gcc version 4.8.2 (GCC) 
+COMPILER_PATH=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2/:/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2/:/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/:/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2/:/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/
+LIBRARY_PATH=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2/:/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/lib/:/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.8.2/:/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi' '-march=armv5te' '-marm' '-mthumb-interwork' '-mtune=arm926ej-s' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'cmTryCompileExec3161349027' '-rdynamic' '-shared-libgcc' '-mtls-dialect=gnu'
+ /opt/trik-sdk/sysroots/i686-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2/collect2 --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTryCompileExec3161349027 /opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/crt1.o /opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/crti.o /opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.8.2/crtbegin.o -L/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2 -L/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/lib -L/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.8.2 -L/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib -O1 --hash-style=gnu --as-needed CMakeFiles/cmTryCompileExec3161349027.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.8.2/crtend.o /opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/crtn.o
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec3161349027/fast"]
+  ignore line: [/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec3161349027.dir/build.make CMakeFiles/cmTryCompileExec3161349027.dir/build]
+  ignore line: [make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3161349027.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi   -O2 -pipe -g -feliminate-unused-debug-types     -o CMakeFiles/cmTryCompileExec3161349027.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3161349027]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3161349027.dir/link.txt --verbose=1]
+  ignore line: [/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi   -O2 -pipe -g -feliminate-unused-debug-types     -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -v CMakeFiles/cmTryCompileExec3161349027.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3161349027 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2/lto-wrapper]
+  ignore line: [Target: arm-oe-linux-gnueabi]
+  ignore line: [Configured with: /home/roma/Workspace_update/setup-scripts/build/tmp-eglibc/work-shared/gcc-4.8.2-r0/gcc-4.8.2/configure --build=x86_64-linux --host=i686-oesdk-linux --target=arm-oe-linux-gnueabi --prefix=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr --exec_prefix=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr --bindir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi --sbindir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi --libexecdir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi --datadir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/share --sysconfdir=/opt/trik-sdk/sysroots/i686-oesdk-linux/etc --sharedstatedir=/opt/trik-sdk/sysroots/i686-oesdk-linux/com --localstatedir=/opt/trik-sdk/sysroots/i686-oesdk-linux/var --libdir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/lib/arm-oe-linux-gnueabi --includedir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/include --oldincludedir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/include --infodir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/share/info --mandir=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/roma/Workspace_update/setup-scripts/build/tmp-eglibc/sysroots/i686-nativesdk-oesdk-linux --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-oe-linux-gnueabi- --without-local-prefix --enable-target-optspace --enable-lto --enable-libssp --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --with-gxx-include-dir=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/include/c++ --with-build-time-tools=/home/roma/Workspace_update/setup-scripts/build/tmp-eglibc/sysroots/x86_64-linux/usr/arm-oe-linux-gnueabi/bin --with-sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi --with-build-sysroot=/home/roma/Workspace_update/setup-scripts/build/tmp-eglibc/sysroots/trikboard --enable-poison-system-directories --disable-libunwind-exceptions --with-mpfr=/home/roma/Workspace_update/setup-scripts/build/tmp-eglibc/sysroots/i686-nativesdk-oesdk-linux --with-mpc=/home/roma/Workspace_update/setup-scripts/build/tmp-eglibc/sysroots/i686-nativesdk-oesdk-linux --enable-nls]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2/:/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2/:/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/:/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2/:/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/]
+  ignore line: [LIBRARY_PATH=/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2/:/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/lib/:/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.8.2/:/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi' '-march=armv5te' '-marm' '-mthumb-interwork' '-mtune=arm926ej-s' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'cmTryCompileExec3161349027' '-rdynamic' '-shared-libgcc' '-mtls-dialect=gnu']
+  link line: [ /opt/trik-sdk/sysroots/i686-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2/collect2 --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTryCompileExec3161349027 /opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/crt1.o /opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/crti.o /opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.8.2/crtbegin.o -L/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2 -L/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/lib -L/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.8.2 -L/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib -O1 --hash-style=gnu --as-needed CMakeFiles/cmTryCompileExec3161349027.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.8.2/crtend.o /opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/crtn.o]
+    arg [/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2/collect2] ==> ignore
+    arg [--sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3161349027] ==> ignore
+    arg [/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/crt1.o] ==> ignore
+    arg [/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/crti.o] ==> ignore
+    arg [/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.8.2/crtbegin.o] ==> ignore
+    arg [-L/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2] ==> dir [/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2]
+    arg [-L/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/lib] ==> dir [/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/lib]
+    arg [-L/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.8.2] ==> dir [/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.8.2]
+    arg [-L/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib] ==> dir [/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib]
+    arg [-O1] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec3161349027.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.8.2/crtend.o] ==> ignore
+    arg [/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2] ==> [/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2]
+  collapse library dir [/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/lib] ==> [/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/lib]
+  collapse library dir [/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.8.2] ==> [/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.8.2]
+  collapse library dir [/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib] ==> [/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2;/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/lib;/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.8.2;/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1y] compiler features compiled with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec1076826475/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec1076826475.dir/build.make CMakeFiles/cmTryCompileExec1076826475.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1076826475.dir/feature_tests.cxx.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi   -O2 -pipe -g -feliminate-unused-debug-types     -std=c++1y -o CMakeFiles/cmTryCompileExec1076826475.dir/feature_tests.cxx.o -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec1076826475
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1076826475.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi   -O2 -pipe -g -feliminate-unused-debug-types     -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec1076826475.dir/feature_tests.cxx.o  -o cmTryCompileExec1076826475 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec1656612168/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec1656612168.dir/build.make CMakeFiles/cmTryCompileExec1656612168.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1656612168.dir/feature_tests.cxx.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi   -O2 -pipe -g -feliminate-unused-debug-types     -std=c++11 -o CMakeFiles/cmTryCompileExec1656612168.dir/feature_tests.cxx.o -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec1656612168
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1656612168.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi   -O2 -pipe -g -feliminate-unused-debug-types     -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec1656612168.dir/feature_tests.cxx.o  -o cmTryCompileExec1656612168 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec3719010779/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec3719010779.dir/build.make CMakeFiles/cmTryCompileExec3719010779.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3719010779.dir/feature_tests.cxx.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi   -O2 -pipe -g -feliminate-unused-debug-types     -std=c++98 -o CMakeFiles/cmTryCompileExec3719010779.dir/feature_tests.cxx.o -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec3719010779
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3719010779.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi   -O2 -pipe -g -feliminate-unused-debug-types     -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec3719010779.dir/feature_tests.cxx.o  -o cmTryCompileExec3719010779 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the function getaddrinfo exists passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec3006393381/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec3006393381.dir/build.make CMakeFiles/cmTryCompileExec3006393381.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3006393381.dir/CheckFunctionExists.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=getaddrinfo   -o CMakeFiles/cmTryCompileExec3006393381.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3006393381
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3006393381.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=getaddrinfo   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec3006393381.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3006393381 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function xdr_free exists passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec1219983813/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec1219983813.dir/build.make CMakeFiles/cmTryCompileExec1219983813.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1219983813.dir/CheckFunctionExists.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=xdr_free   -o CMakeFiles/cmTryCompileExec1219983813.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1219983813
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1219983813.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=xdr_free   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec1219983813.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1219983813 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function xdr_longlong_t exists passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec929453752/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec929453752.dir/build.make CMakeFiles/cmTryCompileExec929453752.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec929453752.dir/CheckFunctionExists.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=xdr_longlong_t   -o CMakeFiles/cmTryCompileExec929453752.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec929453752
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec929453752.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=xdr_longlong_t   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec929453752.dir/CheckFunctionExists.c.o  -o cmTryCompileExec929453752 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_STRUCT_TIMESPEC succeded with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec337822459/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec337822459.dir/build.make CMakeFiles/cmTryCompileExec337822459.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec337822459.dir/src.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DHAVE_STRUCT_TIMESPEC   -o CMakeFiles/cmTryCompileExec337822459.dir/src.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/src.c
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/src.c:2:32: warning: unused variable 'tmp' [-Wunused-variable]
+ int main () { struct timespec *tmp; return 0; }
+                                ^
+Linking C executable cmTryCompileExec337822459
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec337822459.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DHAVE_STRUCT_TIMESPEC   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec337822459.dir/src.c.o  -o cmTryCompileExec337822459 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <time.h>
+int main () { struct timespec *tmp; return 0; }
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec1934148988/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec1934148988.dir/build.make CMakeFiles/cmTryCompileExec1934148988.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1934148988.dir/CheckFunctionExists.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=gettimeofday   -o CMakeFiles/cmTryCompileExec1934148988.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1934148988
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1934148988.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=gettimeofday   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec1934148988.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1934148988 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function usleep exists passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec3712507552/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec3712507552.dir/build.make CMakeFiles/cmTryCompileExec3712507552.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3712507552.dir/CheckFunctionExists.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=usleep   -o CMakeFiles/cmTryCompileExec3712507552.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3712507552
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3712507552.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=usleep   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec3712507552.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3712507552 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function cfmakeraw exists passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec3690688957/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec3690688957.dir/build.make CMakeFiles/cmTryCompileExec3690688957.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3690688957.dir/CheckFunctionExists.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=cfmakeraw   -o CMakeFiles/cmTryCompileExec3690688957.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3690688957
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3690688957.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=cfmakeraw   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec3690688957.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3690688957 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function dirname exists passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec82647164/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec82647164.dir/build.make CMakeFiles/cmTryCompileExec82647164.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec82647164.dir/CheckFunctionExists.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=dirname   -o CMakeFiles/cmTryCompileExec82647164.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec82647164
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec82647164.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=dirname   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec82647164.dir/CheckFunctionExists.c.o  -o cmTryCompileExec82647164 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getopt exists passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec3181351471/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec3181351471.dir/build.make CMakeFiles/cmTryCompileExec3181351471.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3181351471.dir/CheckFunctionExists.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=getopt   -o CMakeFiles/cmTryCompileExec3181351471.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3181351471
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3181351471.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=getopt   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec3181351471.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3181351471 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getopt_long exists passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec742593935/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec742593935.dir/build.make CMakeFiles/cmTryCompileExec742593935.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec742593935.dir/CheckFunctionExists.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=getopt_long   -o CMakeFiles/cmTryCompileExec742593935.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec742593935
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec742593935.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=getopt_long   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec742593935.dir/CheckFunctionExists.c.o  -o cmTryCompileExec742593935 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files linux/joystick.h exist passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec2317306670/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec2317306670.dir/build.make CMakeFiles/cmTryCompileExec2317306670.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2317306670.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec2317306670.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2317306670
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2317306670.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec2317306670.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2317306670 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec2666096186/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec2666096186.dir/build.make CMakeFiles/cmTryCompileExec2666096186.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2666096186.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec2666096186.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2666096186
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2666096186.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec2666096186.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2666096186 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec1733411441/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec1733411441.dir/build.make CMakeFiles/cmTryCompileExec1733411441.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1733411441.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec1733411441.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1733411441
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1733411441.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec1733411441.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1733411441 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function lt_dlopenext exists in the ltdl passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec2924598643/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec2924598643.dir/build.make CMakeFiles/cmTryCompileExec2924598643.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2924598643.dir/CheckFunctionExists.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=lt_dlopenext   -o CMakeFiles/cmTryCompileExec2924598643.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2924598643
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2924598643.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=lt_dlopenext   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec2924598643.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2924598643 -rdynamic -lltdl -ldl 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function nanosleep exists passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec2493486163/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec2493486163.dir/build.make CMakeFiles/cmTryCompileExec2493486163.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2493486163.dir/CheckFunctionExists.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=nanosleep   -o CMakeFiles/cmTryCompileExec2493486163.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2493486163
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2493486163.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=nanosleep   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec2493486163.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2493486163 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function poll exists passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec3359717200/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec3359717200.dir/build.make CMakeFiles/cmTryCompileExec3359717200.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3359717200.dir/CheckFunctionExists.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=poll   -o CMakeFiles/cmTryCompileExec3359717200.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3359717200
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3359717200.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=poll   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec3359717200.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3359717200 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function atan2 exists in the m passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec15858833/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec15858833.dir/build.make CMakeFiles/cmTryCompileExec15858833.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec15858833.dir/CheckFunctionExists.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=atan2   -o CMakeFiles/cmTryCompileExec15858833.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function 'atan2' [enabled by default]
+/usr/share/cmake-3.2/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec15858833
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec15858833.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=atan2   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec15858833.dir/CheckFunctionExists.c.o  -o cmTryCompileExec15858833 -rdynamic -lm 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function round exists passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec3930882674/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec3930882674.dir/build.make CMakeFiles/cmTryCompileExec3930882674.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3930882674.dir/CheckFunctionExists.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=round   -o CMakeFiles/cmTryCompileExec3930882674.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function 'round' [enabled by default]
+/usr/share/cmake-3.2/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec3930882674
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3930882674.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=round   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec3930882674.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3930882674 -rdynamic -lm 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function rint exists passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec422642035/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec422642035.dir/build.make CMakeFiles/cmTryCompileExec422642035.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec422642035.dir/CheckFunctionExists.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=rint   -o CMakeFiles/cmTryCompileExec422642035.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function 'rint' [enabled by default]
+/usr/share/cmake-3.2/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec422642035
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec422642035.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=rint   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec422642035.dir/CheckFunctionExists.c.o  -o cmTryCompileExec422642035 -rdynamic -lm 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function jpeg_read_header exists in the jpeg passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec1551982197/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec1551982197.dir/build.make CMakeFiles/cmTryCompileExec1551982197.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1551982197.dir/CheckFunctionExists.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=jpeg_read_header   -o CMakeFiles/cmTryCompileExec1551982197.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1551982197
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1551982197.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=jpeg_read_header   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec1551982197.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1551982197 -rdynamic -ljpeg 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdio.h;jpeglib.h exist passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec2100802789/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec2100802789.dir/build.make CMakeFiles/cmTryCompileExec2100802789.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2100802789.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec2100802789.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2100802789
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2100802789.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec2100802789.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2100802789 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function compressBound exists passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec1523458540/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec1523458540.dir/build.make CMakeFiles/cmTryCompileExec1523458540.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1523458540.dir/CheckFunctionExists.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=compressBound -I/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/zlib.h    -o CMakeFiles/cmTryCompileExec1523458540.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1523458540
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1523458540.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=compressBound   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec1523458540.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1523458540 -rdynamic -lz 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function compress2 exists in the z passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec3416721915/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec3416721915.dir/build.make CMakeFiles/cmTryCompileExec3416721915.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3416721915.dir/CheckFunctionExists.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=compress2   -o CMakeFiles/cmTryCompileExec3416721915.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3416721915
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3416721915.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=compress2   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec3416721915.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3416721915 -rdynamic -lz 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files zlib.h exist passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec3383767717/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec3383767717.dir/build.make CMakeFiles/cmTryCompileExec3383767717.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3383767717.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec3383767717.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3383767717
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3383767717.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec3383767717.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3383767717 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec4064657669/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec4064657669.dir/build.make CMakeFiles/cmTryCompileExec4064657669.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4064657669.dir/CheckFunctionExists.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTryCompileExec4064657669.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4064657669
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4064657669.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=clock_gettime   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec4064657669.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4064657669 -rdynamic -lrt 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec1905319279/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec1905319279.dir/build.make CMakeFiles/cmTryCompileExec1905319279.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1905319279.dir/CheckFunctionExists.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTryCompileExec1905319279.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1905319279
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1905319279.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=clock_gettime   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec1905319279.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1905319279 -rdynamic -lrt 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec2201261916/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec2201261916.dir/build.make CMakeFiles/cmTryCompileExec2201261916.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2201261916.dir/CheckIncludeFile.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec2201261916.dir/CheckIncludeFile.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2201261916
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2201261916.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec2201261916.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2201261916 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec9173721/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec9173721.dir/build.make CMakeFiles/cmTryCompileExec9173721.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec9173721.dir/CheckIncludeFile.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec9173721.dir/CheckIncludeFile.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec9173721
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec9173721.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec9173721.dir/CheckIncludeFile.c.o  -o cmTryCompileExec9173721 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec1539122109/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec1539122109.dir/build.make CMakeFiles/cmTryCompileExec1539122109.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1539122109.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec1539122109.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTryCompileExec1539122109
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1539122109.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec1539122109.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTryCompileExec1539122109 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec4025301612/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec4025301612.dir/build.make CMakeFiles/cmTryCompileExec4025301612.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4025301612.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec4025301612.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4025301612
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4025301612.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec4025301612.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4025301612 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files alsa/asoundlib.h exist passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec2141925069/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec2141925069.dir/build.make CMakeFiles/cmTryCompileExec2141925069.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2141925069.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec2141925069.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2141925069
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2141925069.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec2141925069.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2141925069 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdio.h;jpeglib.h exist passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec516100782/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec516100782.dir/build.make CMakeFiles/cmTryCompileExec516100782.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec516100782.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec516100782.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec516100782
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec516100782.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec516100782.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec516100782 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h;linux/videodev2.h exist passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec202511138/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec202511138.dir/build.make CMakeFiles/cmTryCompileExec202511138.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec202511138.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec202511138.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec202511138
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec202511138.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec202511138.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec202511138 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/io.h exist passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec2813387205/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec2813387205.dir/build.make CMakeFiles/cmTryCompileExec2813387205.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2813387205.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec2813387205.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2813387205
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2813387205.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec2813387205.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2813387205 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files usb.h exist passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec447510269/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec447510269.dir/build.make CMakeFiles/cmTryCompileExec447510269.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec447510269.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec447510269.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec447510269
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec447510269.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec447510269.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec447510269 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files linux/joystick.h exist passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec3862648717/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec3862648717.dir/build.make CMakeFiles/cmTryCompileExec3862648717.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3862648717.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec3862648717.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3862648717
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3862648717.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec3862648717.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3862648717 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files linux/serial.h exist passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec2866364932/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec2866364932.dir/build.make CMakeFiles/cmTryCompileExec2866364932.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2866364932.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec2866364932.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2866364932
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2866364932.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec2866364932.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2866364932 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files asm/ioctls.h exist passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec2054123038/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec2054123038.dir/build.make CMakeFiles/cmTryCompileExec2054123038.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2054123038.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec2054123038.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2054123038
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2054123038.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec2054123038.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2054123038 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files linux/serial.h exist passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec3422364993/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec3422364993.dir/build.make CMakeFiles/cmTryCompileExec3422364993.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3422364993.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec3422364993.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3422364993
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3422364993.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec3422364993.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3422364993 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+

@@ -1,0 +1,789 @@
+Determining if files dns_sd.h exist failed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec6919370/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec6919370.dir/build.make CMakeFiles/cmTryCompileExec6919370.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec6919370.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec6919370.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: dns_sd.h: No such file or directory
+ #include <dns_sd.h>
+                    ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec6919370.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec6919370.dir/CheckIncludeFiles.c.o' failed
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec6919370.dir/CheckIncludeFiles.c.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec6919370/fast' failed
+make: *** [cmTryCompileExec6919370/fast] Error 2
+
+Source:
+/* */
+#include <dns_sd.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/filio.h exist failed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec2381183258/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec2381183258.dir/build.make CMakeFiles/cmTryCompileExec2381183258.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2381183258.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec2381183258.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:23: fatal error: sys/filio.h: No such file or directory
+ #include <sys/filio.h>
+                       ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec2381183258.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2381183258.dir/CheckIncludeFiles.c.o' failed
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2381183258.dir/CheckIncludeFiles.c.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec2381183258/fast' failed
+make: *** [cmTryCompileExec2381183258/fast] Error 2
+
+Source:
+/* */
+#include <sys/filio.h>
+
+
+int main(void){return 0;}
+
+Determining if files ieeefp.h exist failed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec2864279622/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec2864279622.dir/build.make CMakeFiles/cmTryCompileExec2864279622.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2864279622.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec2864279622.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: ieeefp.h: No such file or directory
+ #include <ieeefp.h>
+                    ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec2864279622.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2864279622.dir/CheckIncludeFiles.c.o' failed
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2864279622.dir/CheckIncludeFiles.c.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec2864279622/fast' failed
+make: *** [cmTryCompileExec2864279622/fast] Error 2
+
+Source:
+/* */
+#include <ieeefp.h>
+
+
+int main(void){return 0;}
+
+Determining if the function GEOSGeomFromWKB_buf exists in the geos_c failed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec3150129014/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec3150129014.dir/build.make CMakeFiles/cmTryCompileExec3150129014.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3150129014.dir/CheckFunctionExists.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=GEOSGeomFromWKB_buf   -o CMakeFiles/cmTryCompileExec3150129014.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3150129014
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3150129014.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=GEOSGeomFromWKB_buf   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec3150129014.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3150129014 -rdynamic -lgeos_c 
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.8.2/ld: cannot find -lgeos_c
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec3150129014.dir/build.make:88: recipe for target 'cmTryCompileExec3150129014' failed
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+Makefile:117: recipe for target 'cmTryCompileExec3150129014/fast' failed
+make[1]: *** [cmTryCompileExec3150129014] Error 1
+make: *** [cmTryCompileExec3150129014/fast] Error 2
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec2265461992/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec2265461992.dir/build.make CMakeFiles/cmTryCompileExec2265461992.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2265461992.dir/TestEndianess.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec2265461992.dir/TestEndianess.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTryCompileExec2265461992
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2265461992.dir/link.txt --verbose=1
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTryCompileExec2265461992.dir/TestEndianess.c.o  -o cmTryCompileExec2265461992 -rdynamic 
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file Device.h exists failed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec727500578/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec727500578.dir/build.make CMakeFiles/cmTryCompileExec727500578.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec727500578.dir/CheckIncludeFile.cxx.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -DLINUX -DUNIX -D__LINUX__ -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec727500578.dir/CheckIncludeFile.cxx.o -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:20: fatal error: Device.h: No such file or directory
+ #include <Device.h>
+                    ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec727500578.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec727500578.dir/CheckIncludeFile.cxx.o' failed
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec727500578.dir/CheckIncludeFile.cxx.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec727500578/fast' failed
+make: *** [cmTryCompileExec727500578/fast] Error 2
+
+
+Determining if files sys/types.h;linux/videodev.h exist failed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec2708204489/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec2708204489.dir/build.make CMakeFiles/cmTryCompileExec2708204489.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2708204489.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec2708204489.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:3:28: fatal error: linux/videodev.h: No such file or directory
+ #include <linux/videodev.h>
+                            ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec2708204489.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2708204489.dir/CheckIncludeFiles.c.o' failed
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2708204489.dir/CheckIncludeFiles.c.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec2708204489/fast' failed
+make: *** [cmTryCompileExec2708204489/fast] Error 2
+
+Source:
+/* */
+#include <sys/types.h>
+#include <linux/videodev.h>
+
+
+int main(void){return 0;}
+
+Determining if files dc1394/control.h exist failed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec2486981449/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec2486981449.dir/build.make CMakeFiles/cmTryCompileExec2486981449.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2486981449.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec2486981449.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:28: fatal error: dc1394/control.h: No such file or directory
+ #include <dc1394/control.h>
+                            ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec2486981449.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2486981449.dir/CheckIncludeFiles.c.o' failed
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2486981449.dir/CheckIncludeFiles.c.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec2486981449/fast' failed
+make: *** [cmTryCompileExec2486981449/fast] Error 2
+
+Source:
+/* */
+#include <dc1394/control.h>
+
+
+int main(void){return 0;}
+
+Determining if files libraw1394/raw1394.h exist failed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec27646891/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec27646891.dir/build.make CMakeFiles/cmTryCompileExec27646891.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec27646891.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec27646891.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:32: fatal error: libraw1394/raw1394.h: No such file or directory
+ #include <libraw1394/raw1394.h>
+                                ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec27646891.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec27646891.dir/CheckIncludeFiles.c.o' failed
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec27646891.dir/CheckIncludeFiles.c.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec27646891/fast' failed
+make: *** [cmTryCompileExec27646891/fast] Error 2
+
+Source:
+/* */
+#include <libraw1394/raw1394.h>
+
+
+int main(void){return 0;}
+
+Determining if files libdc1394/dc1394_control.h exist failed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec2300220619/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec2300220619.dir/build.make CMakeFiles/cmTryCompileExec2300220619.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2300220619.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec2300220619.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:38: fatal error: libdc1394/dc1394_control.h: No such file or directory
+ #include <libdc1394/dc1394_control.h>
+                                      ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec2300220619.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2300220619.dir/CheckIncludeFiles.c.o' failed
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2300220619.dir/CheckIncludeFiles.c.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec2300220619/fast' failed
+make: *** [cmTryCompileExec2300220619/fast] Error 2
+
+Source:
+/* */
+#include <libdc1394/dc1394_control.h>
+
+
+int main(void){return 0;}
+
+Determining if files yarp/os/all.h exist failed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec813572387/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec813572387.dir/build.make CMakeFiles/cmTryCompileExec813572387.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec813572387.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec813572387.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: fatal error: yarp/os/all.h: No such file or directory
+ #include <yarp/os/all.h>
+                         ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec813572387.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec813572387.dir/CheckIncludeFiles.c.o' failed
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+Makefile:117: recipe for target 'cmTryCompileExec813572387/fast' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec813572387.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec813572387/fast] Error 2
+
+Source:
+/* */
+#include <yarp/os/all.h>
+
+
+int main(void){return 0;}
+
+Determining if files yarp/sig/all.h exist failed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec4011914253/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec4011914253.dir/build.make CMakeFiles/cmTryCompileExec4011914253.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4011914253.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec4011914253.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:26: fatal error: yarp/sig/all.h: No such file or directory
+ #include <yarp/sig/all.h>
+                          ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec4011914253.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec4011914253.dir/CheckIncludeFiles.c.o' failed
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec4011914253.dir/CheckIncludeFiles.c.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec4011914253/fast' failed
+make: *** [cmTryCompileExec4011914253/fast] Error 2
+
+Source:
+/* */
+#include <yarp/sig/all.h>
+
+
+int main(void){return 0;}
+
+Determining if files unicap.h exist failed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec3189780782/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec3189780782.dir/build.make CMakeFiles/cmTryCompileExec3189780782.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3189780782.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec3189780782.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: unicap.h: No such file or directory
+ #include <unicap.h>
+                    ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec3189780782.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3189780782.dir/CheckIncludeFiles.c.o' failed
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3189780782.dir/CheckIncludeFiles.c.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec3189780782/fast' failed
+make: *** [cmTryCompileExec3189780782/fast] Error 2
+
+Source:
+/* */
+#include <unicap.h>
+
+
+int main(void){return 0;}
+
+Determining if the inb_p exist failed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec3266681418/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec3266681418.dir/build.make CMakeFiles/cmTryCompileExec3266681418.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3266681418.dir/CheckSymbolExists.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec3266681418.dir/CheckSymbolExists.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'inb_p' undeclared (first use in this function)
+   return ((int*)(&inb_p))[argc];
+                   ^
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+CMakeFiles/cmTryCompileExec3266681418.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3266681418.dir/CheckSymbolExists.c.o' failed
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3266681418.dir/CheckSymbolExists.c.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec3266681418/fast' failed
+make: *** [cmTryCompileExec3266681418/fast] Error 2
+
+File /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/io.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inb_p
+  return ((int*)(&inb_p))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the outb_p exist failed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec3752869040/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec3752869040.dir/build.make CMakeFiles/cmTryCompileExec3752869040.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3752869040.dir/CheckSymbolExists.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec3752869040.dir/CheckSymbolExists.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'outb_p' undeclared (first use in this function)
+   return ((int*)(&outb_p))[argc];
+                   ^
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+CMakeFiles/cmTryCompileExec3752869040.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3752869040.dir/CheckSymbolExists.c.o' failed
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3752869040.dir/CheckSymbolExists.c.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec3752869040/fast' failed
+make: *** [cmTryCompileExec3752869040/fast] Error 2
+
+File /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/io.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef outb_p
+  return ((int*)(&outb_p))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function main exists in the roboop failed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec2974655617/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec2974655617.dir/build.make CMakeFiles/cmTryCompileExec2974655617.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2974655617.dir/CheckFunctionExists.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DCHECK_FUNCTION_EXISTS=main   -o CMakeFiles/cmTryCompileExec2974655617.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.2/Modules/CheckFunctionExists.c:9:5: error: conflicting types for 'main'
+ int main(int ac, char*av[]){
+     ^
+<command-line>:0:23: note: previous declaration of 'main' was here
+/usr/share/cmake-3.2/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+ char CHECK_FUNCTION_EXISTS();
+      ^
+/usr/share/cmake-3.2/Modules/CheckFunctionExists.c: In function 'main':
+/usr/share/cmake-3.2/Modules/CheckFunctionExists.c:11:3: error: too few arguments to function 'main'
+   CHECK_FUNCTION_EXISTS();
+   ^
+/usr/share/cmake-3.2/Modules/CheckFunctionExists.c:9:5: note: declared here
+ int main(int ac, char*av[]){
+     ^
+CMakeFiles/cmTryCompileExec2974655617.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2974655617.dir/CheckFunctionExists.c.o' failed
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2974655617.dir/CheckFunctionExists.c.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec2974655617/fast' failed
+make: *** [cmTryCompileExec2974655617/fast] Error 2
+
+
+Determining if files phidget21.h exist failed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec2869923077/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec2869923077.dir/build.make CMakeFiles/cmTryCompileExec2869923077.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2869923077.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec2869923077.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:23: fatal error: phidget21.h: No such file or directory
+ #include <phidget21.h>
+                       ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec2869923077.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2869923077.dir/CheckIncludeFiles.c.o' failed
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2869923077.dir/CheckIncludeFiles.c.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec2869923077/fast' failed
+make: *** [cmTryCompileExec2869923077/fast] Error 2
+
+Source:
+/* */
+#include <phidget21.h>
+
+
+int main(void){return 0;}
+
+Determining if files /include/canlib.h exist failed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec2281506950/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec2281506950.dir/build.make CMakeFiles/cmTryCompileExec2281506950.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2281506950.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec2281506950.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:29: fatal error: /include/canlib.h: No such file or directory
+ #include </include/canlib.h>
+                             ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec2281506950.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2281506950.dir/CheckIncludeFiles.c.o' failed
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2281506950.dir/CheckIncludeFiles.c.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec2281506950/fast' failed
+make: *** [cmTryCompileExec2281506950/fast] Error 2
+
+Source:
+/* */
+#include </include/canlib.h>
+
+
+int main(void){return 0;}
+
+Determining if files robotinocom.h exist failed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec3899555733/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec3899555733.dir/build.make CMakeFiles/cmTryCompileExec3899555733.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3899555733.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec3899555733.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: fatal error: robotinocom.h: No such file or directory
+ #include <robotinocom.h>
+                         ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec3899555733.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3899555733.dir/CheckIncludeFiles.c.o' failed
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3899555733.dir/CheckIncludeFiles.c.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec3899555733/fast' failed
+make: *** [cmTryCompileExec3899555733/fast] Error 2
+
+Source:
+/* */
+#include <robotinocom.h>
+
+
+int main(void){return 0;}
+
+Determining if files xtimer.h exist failed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec735850380/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec735850380.dir/build.make CMakeFiles/cmTryCompileExec735850380.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec735850380.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec735850380.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: xtimer.h: No such file or directory
+ #include <xtimer.h>
+                    ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec735850380.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec735850380.dir/CheckIncludeFiles.c.o' failed
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec735850380.dir/CheckIncludeFiles.c.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec735850380/fast' failed
+make: *** [cmTryCompileExec735850380/fast] Error 2
+
+Source:
+/* */
+#include <xtimer.h>
+
+
+int main(void){return 0;}
+
+Determining if files xthread.h exist failed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec1734574548/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec1734574548.dir/build.make CMakeFiles/cmTryCompileExec1734574548.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1734574548.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec1734574548.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: fatal error: xthread.h: No such file or directory
+ #include <xthread.h>
+                     ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec1734574548.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1734574548.dir/CheckIncludeFiles.c.o' failed
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1734574548.dir/CheckIncludeFiles.c.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec1734574548/fast' failed
+make: *** [cmTryCompileExec1734574548/fast] Error 2
+
+Source:
+/* */
+#include <xthread.h>
+
+
+int main(void){return 0;}
+
+Determining if files libusbSR.h exist failed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec3060452113/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec3060452113.dir/build.make CMakeFiles/cmTryCompileExec3060452113.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3060452113.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec3060452113.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:22: fatal error: libusbSR.h: No such file or directory
+ #include <libusbSR.h>
+                      ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec3060452113.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3060452113.dir/CheckIncludeFiles.c.o' failed
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3060452113.dir/CheckIncludeFiles.c.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec3060452113/fast' failed
+make: *** [cmTryCompileExec3060452113/fast] Error 2
+
+Source:
+/* */
+#include <libusbSR.h>
+
+
+int main(void){return 0;}
+
+Determining if the include file libMesaSR.h exists failed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec1047441164/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec1047441164.dir/build.make CMakeFiles/cmTryCompileExec1047441164.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1047441164.dir/CheckIncludeFile.cxx.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi   -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec1047441164.dir/CheckIncludeFile.cxx.o -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:23: fatal error: libMesaSR.h: No such file or directory
+ #include <libMesaSR.h>
+                       ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec1047441164.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1047441164.dir/CheckIncludeFile.cxx.o' failed
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1047441164.dir/CheckIncludeFile.cxx.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec1047441164/fast' failed
+make: *** [cmTryCompileExec1047441164/fast] Error 2
+
+
+Determining if files isense/isense.h exist failed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec3902003763/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec3902003763.dir/build.make CMakeFiles/cmTryCompileExec3902003763.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3902003763.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec3902003763.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:27: fatal error: isense/isense.h: No such file or directory
+ #include <isense/isense.h>
+                           ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec3902003763.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3902003763.dir/CheckIncludeFiles.c.o' failed
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3902003763.dir/CheckIncludeFiles.c.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec3902003763/fast' failed
+make: *** [cmTryCompileExec3902003763/fast] Error 2
+
+Source:
+/* */
+#include <isense/isense.h>
+
+
+int main(void){return 0;}
+
+Determining if files sphinx2/ckd_alloc.h exist failed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec963875402/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec963875402.dir/build.make CMakeFiles/cmTryCompileExec963875402.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec963875402.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec963875402.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:31: fatal error: sphinx2/ckd_alloc.h: No such file or directory
+ #include <sphinx2/ckd_alloc.h>
+                               ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec963875402.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec963875402.dir/CheckIncludeFiles.c.o' failed
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec963875402.dir/CheckIncludeFiles.c.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec963875402/fast' failed
+make: *** [cmTryCompileExec963875402/fast] Error 2
+
+Source:
+/* */
+#include <sphinx2/ckd_alloc.h>
+
+
+int main(void){return 0;}
+
+Determining if the include file SVS/svsclass.h exists failed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec4111936910/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec4111936910.dir/build.make CMakeFiles/cmTryCompileExec4111936910.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4111936910.dir/CheckIncludeFile.cxx.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi   -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec4111936910.dir/CheckIncludeFile.cxx.o -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:26: fatal error: SVS/svsclass.h: No such file or directory
+ #include <SVS/svsclass.h>
+                          ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec4111936910.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec4111936910.dir/CheckIncludeFile.cxx.o' failed
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec4111936910.dir/CheckIncludeFile.cxx.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec4111936910/fast' failed
+make: *** [cmTryCompileExec4111936910/fast] Error 2
+
+
+Determining if files linux/wireless.h exist failed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec2917791274/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec2917791274.dir/build.make CMakeFiles/cmTryCompileExec2917791274.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2917791274.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec2917791274.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+In file included from /opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/include/linux/wireless.h:74:0,
+                 from /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:
+/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/include/linux/if.h:185:19: error: field 'ifru_addr' has incomplete type
+   struct sockaddr ifru_addr;
+                   ^
+/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/include/linux/if.h:186:19: error: field 'ifru_dstaddr' has incomplete type
+   struct sockaddr ifru_dstaddr;
+                   ^
+/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/include/linux/if.h:187:19: error: field 'ifru_broadaddr' has incomplete type
+   struct sockaddr ifru_broadaddr;
+                   ^
+/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/include/linux/if.h:188:19: error: field 'ifru_netmask' has incomplete type
+   struct sockaddr ifru_netmask;
+                   ^
+/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/include/linux/if.h:189:20: error: field 'ifru_hwaddr' has incomplete type
+   struct  sockaddr ifru_hwaddr;
+                    ^
+In file included from /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:0:
+/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/include/linux/wireless.h:751:19: error: field 'addr' has incomplete type
+  struct sockaddr  addr;  /* Source address (hw/mac) */
+                   ^
+/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/include/linux/wireless.h:777:18: error: field 'bssid' has incomplete type
+  struct sockaddr bssid; /* ff:ff:ff:ff:ff:ff for broadcast BSSID or
+                  ^
+/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/include/linux/wireless.h:835:18: error: field 'addr' has incomplete type
+  struct sockaddr addr; /* ff:ff:ff:ff:ff:ff for broadcast/multicast
+                  ^
+/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/include/linux/wireless.h:848:18: error: field 'addr' has incomplete type
+  struct sockaddr addr;
+                  ^
+/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/include/linux/wireless.h:861:18: error: field 'bssid' has incomplete type
+  struct sockaddr bssid;
+                  ^
+/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/include/linux/wireless.h:869:18: error: field 'src_addr' has incomplete type
+  struct sockaddr src_addr;
+                  ^
+/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/include/linux/wireless.h:880:18: error: field 'bssid' has incomplete type
+  struct sockaddr bssid;
+                  ^
+/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/include/linux/wireless.h:934:18: error: field 'ap_addr' has incomplete type
+  struct sockaddr ap_addr; /* Access point address */
+                  ^
+/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi/usr/include/linux/wireless.h:935:18: error: field 'addr' has incomplete type
+  struct sockaddr addr;  /* Destination address (hw/mac) */
+                  ^
+CMakeFiles/cmTryCompileExec2917791274.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2917791274.dir/CheckIncludeFiles.c.o' failed
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2917791274.dir/CheckIncludeFiles.c.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec2917791274/fast' failed
+make: *** [cmTryCompileExec2917791274/fast] Error 2
+
+Source:
+/* */
+#include <linux/wireless.h>
+
+
+int main(void){return 0;}
+
+Determining if files libparticle.h exist failed with the following output:
+Change Dir: /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make" "cmTryCompileExec3117932923/fast"
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/make -f CMakeFiles/cmTryCompileExec3117932923.dir/build.make CMakeFiles/cmTryCompileExec3117932923.dir/build
+make[1]: Entering directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3117932923.dir/CheckIncludeFiles.c.o
+/opt/trik-sdk/sysroots/i686-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv5te -marm -mthumb-interwork -mtune=arm926ej-s --sysroot=/opt/trik-sdk/sysroots/arm926ejste-oe-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall    -o CMakeFiles/cmTryCompileExec3117932923.dir/CheckIncludeFiles.c.o   -c /home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: fatal error: libparticle.h: No such file or directory
+ #include <libparticle.h>
+                         ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec3117932923.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3117932923.dir/CheckIncludeFiles.c.o' failed
+make[1]: Leaving directory '/home/lada/Documents/player-3.0.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3117932923.dir/CheckIncludeFiles.c.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec3117932923/fast' failed
+make: *** [cmTryCompileExec3117932923/fast] Error 2
+
+Source:
+/* */
+#include <libparticle.h>
+
+
+int main(void){return 0;}
+
