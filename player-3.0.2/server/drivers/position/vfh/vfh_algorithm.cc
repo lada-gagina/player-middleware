@@ -413,7 +413,7 @@ int VFH_Algorithm::Update_VFH( double laser_ranges[361][2],
                                int &chosen_speed, 
                                int &chosen_turnrate ) 
 {
-  int print = 1;
+  int print = 0;
 
   this->Desired_Angle = goal_direction;
   this->Dist_To_Goal  = goal_distance;

@@ -524,7 +524,6 @@ int VFH_Class::SetupLaser()
   }
 
   this->laser_count = 0;
-  PLAYER_MSG0(0, "Laser set up");
   //this->laser_ranges = NULL;
   return 0;
 }
